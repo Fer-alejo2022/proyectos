@@ -1,0 +1,10 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#clock{
+    position: absolute;
+    top: 290px;
+    left: 543px
+}
