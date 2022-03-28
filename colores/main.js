@@ -5,5 +5,4 @@ function cambioColor(fondo,letras){
     ind = letras.selectedIndex;
     document.fgColor = letras.options[ind].value;
     return;
-
 }
