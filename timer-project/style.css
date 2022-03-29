@@ -135,8 +135,9 @@ p {
         width: 47%;
     }
     .block-button {
-        left: 103px;
+        left: 64px;
         top: 102px;
+        width: 126%;
     }
     #counter {
         position: relative;
