@@ -140,13 +140,15 @@ p {
 
 @media screen and (max-width:320px) {
     .block-button {
-        left: 82px;
+        left: 70px;
         width: 125%;
+        top:53px;
     }
     #counter {
         display: flex;
         position: relative;
-        left: 25px;
+        left: 13px;
+        top: -73px;
    }
    .block-h {
         right: 67px;
