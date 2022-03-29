@@ -147,6 +147,7 @@ p {
     #counter {
         display: flex;
         position: relative;
+        margin-left: 40px;
         left: 13px;
         top: -73px;
    }
