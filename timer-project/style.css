@@ -86,30 +86,74 @@ p {
     text-align: center;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 1024px){
     body{
-        width: 40%;
-    }   
-    
-    .block-button {
-        left: 89px;
-        width: 122%;
-        margin-top: 40px;
+        width: 46%;
+    }
+    .block-button{
+        left: 383px;
+    }
+    #counter{
+        display: flex;
         position: relative;
-        top: 127px;
+        left: 226px;
+    }
+    .block-h {
+        right: 195px;
+    }
+    .block-s {
+        margin-left: 176px;
+    }
+}   
+
+@media screen and (max-width:768px){
+    .block-button {
+        left: 271px;
+    }
+    #counter {
+        display: flex;
+        position: relative;
+        left: 168px;
     }
 
-    #counter{
+}
+
+@media screen and (max-width: 480px) {
+    .block-button {
+        left: 141px;
+        top: 102px;
+    }
+    #counter {
+        display: flex;
+        position: relative;
+        left: 68px;
+    }
+    .block-h {
+        right: 94px;
+    }
+    .block-s {
+        position: relative;
+        left: -27px;
+        margin-left: 117px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .block-button {
+        left: 82px;
+        width: 125%;
+    }
+    #counter {
+        display: flex;
         position: relative;
         left: 25px;
-    }
-
-    .block-h{
-        right: 52px;
-    }
-
-    .block-s{
-        margin-left: 57px;
-    }
-    
-}   
+   }
+   .block-h {
+        right: 67px;
+   }
+   .block-s {
+    position: relative;
+    left: -56px;
+    margin-left: 113px;
+}
+}
