@@ -94,7 +94,6 @@ p {
         font-size: 15px;
     }
     #counter{
-        display: flex;
         position: relative;
         left: 323px;
     }
@@ -109,7 +108,6 @@ p {
         left: 383px;
     }
     #counter{
-        display: flex;
         position: relative;
         left: 226px;
     }
@@ -126,7 +124,6 @@ p {
         left: 271px;
     }
     #counter {
-        display: flex;
         position: relative;
         left: 168px;
     }
@@ -138,12 +135,10 @@ p {
         width: 47%;
     }
     .block-button {
-        left: 66px;
+        left: 141px;
         top: 102px;
-        width: 136%;
     }
     #counter {
-        display: flex;
         position: relative;
         left: 22px;
     }
@@ -167,7 +162,6 @@ p {
         top:53px;
     }
     #counter {
-        display: flex;
         position: relative;
         left: 13px;
         top: -73px;
