@@ -143,8 +143,8 @@ p {
     }
     #counter {
         display: flex;
-        position: relative;
-        left: 50px;
+        position: absolute;
+        left: 112px;
     }
     .block-h {
         right: 94px;
