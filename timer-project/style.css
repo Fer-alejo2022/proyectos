@@ -86,42 +86,30 @@ p {
     text-align: center;
 }
 
-@media screen and (max-width: 320px){
-          .block-button{
-              width: 90%;
-              left: 12px;
-          }
+@media screen and (max-width: 360px) {
+    body{
+        width: 40%;
+    }   
+    
+    .block-button {
+        left: 89px;
+        width: 122%;
+        margin-top: 40px;
+        position: relative;
+        top: 127px;
+    }
 
-          #counter{
-               width: 60%;
-               margin-top: 168px;
-           }
-           .block-h{
-               right: 50px;
-           }
-           .block-s{
-               margin-left: 52px;
-           }
-}
+    #counter{
+        position: relative;
+        left: 25px;
+    }
 
-@media screen and (max-width:480px) {
-           .block-button{
-                left: 8px;
-                width: 50%;
-           }
-           #counter{
-               width: 37%;
-               margin-top: 185px;
-           }
-}
+    .block-h{
+        right: 52px;
+    }
 
-@media screen and (max-width:768px) {
-             .block-button{
-                 left: 0px;
-                 width: 32%;
-             }
-             #counter{
-                 width: 22%;
-                 margin-top: 129px;
-             }
-}
+    .block-s{
+        margin-left: 57px;
+    }
+    
+}   
