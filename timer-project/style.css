@@ -138,13 +138,14 @@ p {
         width: 47%;
     }
     .block-button {
-        left: 141px;
+        left: 66px;
         top: 102px;
+        width: 136%;
     }
     #counter {
         display: flex;
-        position: absolute;
-        left: 112px;
+        position: relative;
+        left: 22px;
     }
     .block-h {
         right: 94px;
