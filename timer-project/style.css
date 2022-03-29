@@ -154,8 +154,15 @@ p {
         right: 67px;
    }
    .block-s {
-    position: relative;
-    left: -56px;
-    margin-left: 113px;
+        position: relative;
+        left: -56px;
+        margin-left: 113px;
+   }
 }
+
+@media screen and (max-width:360px) and (max-height: 640px) {
+    .block-button {
+        left: 210px;
+    }
+
 }
