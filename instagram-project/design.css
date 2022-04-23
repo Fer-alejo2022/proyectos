@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eeee;
+    overflow-x: hidden;
+}
+.container_general{
+    height: 50vh;
+}
+.img_celular {
+    position: relative;
+    top: 110px;
+    left: 367px;
+}
+.containerFormLink {
+    width: 10%;
+    height: 90vh;
+    position: relative;
+    left: 780px;
+    padding: 40px 116px 0px 100px;
+    background-color: #ffff;
+    border: 1px solid #cccc;
+    bottom: 560px;
+}
+.title_1 {
+    font-family: 'Merriweather', serif;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+.container_title2{
+    width: 231px;
+    position: relative;
+    right: 52px;
+    margin: 2rem auto;
+}
+.sub_title2 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(102, 98, 98, 0.8);
+    position: relative;
+    bottom: 29px;
+    text-align: center;
+    width: 112%;
+    font-size: 16px;
+}
+.boton_facebook {
+    background-color: #3b5998;
+    position: relative;
+    width: 258px;
+    padding: 10px;
+    left: -48px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    bottom: 34px;
+}
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 11px;
+    color: white;
+    background-color: #3b5998;
+}
+.boton_facebook a{
+     text-decoration: none;
+     color: white;
+}
+.fa-solid, .fa{
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    position: absolute;
+    font-size: 14px;
+    color: red;
+    background-color: aqua;
+}
+form{
+    height: 50vh;
+    margin: 5%;
+    justify-content: center;
+}
+input {
+    width: 243px;
+    position: relative;
+    bottom: 20px;
+    padding: 10px;
+    margin-top: 9px;
+    left: -56px;
+    background-color: #eeee;
+    border: 1px solid #cccc;
+    outline: none;
+}
+input::placeholder{
+    color: rgba(102, 98, 98, 0.7);
+    font-size: 11px;
+}
+
+.btn-send {
+    position: relative;
+    bottom: 10px;
+    width: 259px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #aec8ff;
+    cursor: pointer;
+}
+.container-alerta{
+    width: 500px;
+    font-size: 15px;
+    text-align: center;
+}
+.alerta{
+    position: absolute;
+    top: 460px;
+    left: 10px;
+    color: rgb(241, 8, 8);
+}
+.link_aceptas{
+    position: relative;
+    right: 80px;
+    bottom: 34px;
+    width: 320px;
+    font-size: 15px;
+    text-align: center;
+    color: rgba(102, 98, 98, 0.7);
+}
+.link_aceptas a{
+    text-decoration: none;
+    color:rgba(102, 98, 98, 0.9);
+}
+.container2{
+    background-color: #ffff;
+    border: 1px solid #cccc;
+    width: 328px;
+    position: relative;
+    bottom: 541px;
+    left: 780px;
+    padding: 12px;
+    text-align: center;
+}
+.container2 a {
+    text-decoration: none;
+    color: #3b5998;
+}
+.container3{
+    position: relative;
+    bottom: 526px;
+    left: 290px;
+    text-align: center;
+}
+.img_container3{
+    width: 9%;
+}
+.container4{
+    position: relative;
+    bottom: 441px;
+    left: 272px;
+    width: 70%;
+    text-align: center;
+}
+.link{
+    position: relative;
+    bottom: 45px;
+    margin-left: 18px;
+    font-size: smaller;
+    text-decoration: none;
+    color: rgba(102, 98, 98, 0.8);
+}
+.idiomas {
+    background-color: #eeee;
+    border: none;
+    color: rgba(102, 98, 98, 0.8);
+    outline: none;
+    width: 79px;
+    position: relative;
+    bottom: 2px;
+    right: 353px;
+}
+.copyright{
+    position: relative;
+    bottom: 35px;
+    color: rgba(102, 98, 98, 0.8);    
+}
+
+.btn-send:hover{
+    background-color: #7da2f3;
+}
+input:hover{
+    border: 1px solid rgba(143, 140, 140, 0.8);
+}

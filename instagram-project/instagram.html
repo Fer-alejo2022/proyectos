@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="icon" href="./img/logo.ico"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Merriweather:ital,wght@1,300&family=Montserrat:wght@100&family=Raleway:wght@100&family=Roboto+Serif:ital,wght@1,100&family=Roboto:wght@300&family=Square+Peg&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Raleway:wght@100&family=Roboto+Serif:ital,wght@1,100&family=Square+Peg&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container_general">
+            <img class="img_celular" src="./img/imagen.jpeg" alt="Celular"/>
+
+       <div class="containerFormLink">
+            <h1 class="title_1">Instagram</h1>
+       <div class="container_title2">
+            <h2 class="sub_title2">Registrate para ver fotos y videos de tus Amigos</h2>
+       </div> 
+            <button class="boton_facebook"><i class="fa-brands fa-facebook-square"></i><a href="https://www.instagram.com/fxcal/disclosure/">Iniciar sesión con Facebook</a></button>
+
+       <form id="formulario" action="">
+               <input type="text" name="correo" id="correo" placeholder="Correo electrónico"/>
+               <input type="text"  name="name" id="name" placeholder="Nombre completo" onkeypress="soloLetras(event)"/>
+               <input type="text" name="usuario" id="usuario"placeholder="Nombre de usuario"/>
+               <input type="password" name="clave" id="clave" placeholder="Contraseña"/>
+               <input type="submit" value="Registrate" class="btn-send"/> 
+               <div class="container-alerta">
+                 <p class="alerta" id="alerta"></p>
+               </div>
+        </form>
+
+        <p class="link_aceptas">
+             Al registrase, aceptas nuestras <a href="https://help.instagram.com/581066165581870">Condiciones</a>,
+             la <a href="https://help.instagram.com/519522125107875/?maybe_redirect_pol=0">Politica de Datos</a> y la 
+             <a href="https://help.instagram.com/1896641480634370?ref=ig">Política de Cookies</a>.
+        </p>
+
+    </div>
+
+    <div class="container2">
+             <p>¿Tienes una Cuenta? <a href="https://www.instagram.com/accounts/login/?hl=es&source=auth_switcher">Inicia Sesión</a></p>
+    </div>
+
+    <div class="container3">
+             <p>Descargar app</p>
+
+        <a href="https://apps.apple.com/app/instagram/id389801252?vt=lo">
+             <img class="img_container3" src=".img/app_store.png" alt="App store">
+        </a>
+
+        <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb&utm_campaign=signupPage&ig_mid=2065ABCD-D0E8-4EC8-BD61-FF4EC5BC4084&utm_content=lo&utm_medium=badge">
+             <img class="img_container3" src=".img/google_play.png" alt="Gooogle play"/>
+        </a>
+    </div>
+    
+    <div class="container4">
+        <footer>
+             <a class="link" href="https://about.facebook.com/meta">Meta</a>
+             <a class="link" href="https://about.instagram.com/">Información</a>
+             <a class="link" href="https://about.instagram.com/blog">Blog</a>
+             <a  class="link" href="https://about.instagram.com/about-us/careers">Empleo</a>
+             <a class="link" href="https://help.instagram.com/">Ayuda</a>
+             <a class="link" href="https://developers.facebook.com/docs/instagram">API</a>
+             <a class="link" href="https://help.instagram.com/519522125107875/?maybe_redirect_pol=0">Privacidad</a>
+             <a  class="link" href="https://help.instagram.com/581066165581870">Condiciones</a>
+             <a class="link" href="https://www.instagram.com/directory/profiles/">Cuentas destacadas</a>
+             <a class="link" href="https://www.instagram.com/directory/hashtags/">Hashtags</a>
+             <a class="link" href="https://www.instagram.com/accounts/login/?next=/explore/locations/">Ubicaciones</a>
+             <a class="link" href="https://www.instagram.com/web/lite/">Instagram Lite</a>
+             <a class="link" href="https://www.instagram.com/topics/dance-and-performance/">Danza</a>
+             <a class="link" href="https://www.instagram.com/topics/food-and-drink/">Comida y bebida</a>
+             <a class="link" href="https://www.instagram.com/topics/home-and-garden/">Casa y jardín</a>
+             <a class="link" href="https://www.instagram.com/topics/music/">Música</a>
+             <a class="link" href="https://www.instagram.com/topics/visual-arts/">Artes visuales</a>
+
+        <select class="idiomas">
+             <option value="af">Afrikaans</option>
+             <option value="cs">Čeština</option>
+             <option value="da">Dansk</option>
+             <option value="de">Deutsch</option>
+             <option value="el">Ελληνικά</option>
+             <option value="en">English</option>
+             <option value="en-gb">English (UK)</option>
+             <option value="es">Español (España)</option>
+             <option value="es-la">Español</option>
+             <option value="fi">Suomi</option>
+             <option value="fr">Français</option>
+             <option value="id">Bahasa Indonesia</option>
+             <option value="it">Italiano</option>
+             <option value="ja">日本語</option>
+             <option value="ko">한국어</option>
+             <option value="ms">Bahasa Melayu</option>
+             <option value="nb">Norsk</option>
+             <option value="nl">Nederlands</option>
+             <option value="pl">Polski</option>
+             <option value="pt-br">Português (Brasil)</option>
+             <option value="pt">Português (Portugal)</option>
+             <option value="ru">Русский</option>
+             <option value="sv">Svenska</option>
+             <option value="th">ภาษาไทย</option>
+             <option value="tl">Filipino</option>
+             <option value="tr">Türkçe</option>
+             <option value="zh-cn">中文(简体)</option>
+             <option value="zh-tw">中文(台灣)</option>
+             <option value="bn">বাংলা</option>
+             <option value="gu">ગુજરાતી</option>
+             <option value="hi">हिन्दी</option>
+             <option value="hr">Hrvatski</option>
+             <option value="hu">Magyar</option>
+             <option value="kn">ಕನ್ನಡ</option>
+             <option value="ml">മലയാളം</option>
+             <option value="mr">मराठी</option>
+             <option value="ne">नेपाली</option>
+             <option value="pa">ਪੰਜਾਬੀ</option>
+             <option value="si">සිංහල</option>
+             <option value="sk">Slovenčina</option>
+             <option value="ta">தமிழ்</option>
+             <option value="te">తెలుగు</option>
+             <option value="vi">Tiếng Việt</option>
+             <option value="zh-hk">中文(香港)</option>
+             <option value="bg">Български</option>
+             <option value="fr-ca">Français (Canada)</option>
+             <option value="ro">Română</option>
+             <option value="sr">Српски</option>
+             <option value="uk">Українська</option>
+        </select>
+             <p class="copyright">© 2022 Instagram from Meta</p>
+     </footer>    
+    </div>
+
+</div>
+
+<script src="https://kit.fontawesome.com/1e66e0a41c.js" crossorigin="anonymous"></script>
+<script src="funcionalidad.js"></script>
+</body>
+</html>
