@@ -1,193 +1,256 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #eeee;
-    overflow-x: hidden;
-}
-.container_general{
-    height: 50vh;
-}
-.img_celular {
-    position: relative;
-    top: 110px;
-    left: 367px;
-}
-.containerFormLink {
-    width: 10%;
-    height: 90vh;
-    position: relative;
-    left: 780px;
-    padding: 40px 116px 0px 100px;
+
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ body{
+     background-color: #eeee;
+     overflow-x: hidden;
+ }
+ .container_general{
+     width: 90%;
+     max-width: 1000px;
+     margin: 20px auto;
+     display: grid;
+     grid-gap: 10px;
+     grid-template-columns: repeat(2,1fr);
+     grid-template-rows: repeat(4,auto);
+ }
+ .mobile{
+    margin: 20px auto;
+  }
+ .form_title_btn{
+    width: 68%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid; 
+    text-align: center;
     background-color: #ffff;
     border: 1px solid #cccc;
-    bottom: 560px;
-}
-.title_1 {
+ }
+ .instagram{
     font-family: 'Merriweather', serif;
-    position: relative;
-    bottom: 30px;
-    text-align: center;
-    font-size: 35px;
-}
-.container_title2{
-    width: 231px;
-    position: relative;
-    right: 52px;
-    margin: 2rem auto;
-}
-.sub_title2 {
+    margin-top: 12px;
+ }
+ .photos_videos{
     font-family: 'Montserrat', sans-serif;
     color: rgba(102, 98, 98, 0.8);
-    position: relative;
-    bottom: 29px;
+    font-size: 15px;
     text-align: center;
-    width: 112%;
-    font-size: 16px;
-}
-.boton_facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center
+ }
+ .btn_facebook{
+    margin: 20px;
     background-color: #3b5998;
-    position: relative;
-    width: 258px;
-    padding: 10px;
-    left: -48px;
+    color: white;
     border-radius: 5px;
     outline: none;
     border: none;
-    bottom: 34px;
-}
-.fa-brands, .fab {
-    font-family: "Font Awesome 6 Brands";
-    font-weight: 400;
-    font-size: 14px;
-    margin-right: 11px;
+ }
+ .btn_facebook a{
+    text-decoration: none;
     color: white;
-    background-color: #3b5998;
-}
-.boton_facebook a{
-     text-decoration: none;
-     color: white;
-}
-.fa-solid, .fa{
+    margin: 9px;
+    font-size: 15px;
+ }
+ .fa-brands, .fab {
     font-family: "Font Awesome 6 Brands";
     font-weight: 400;
-    position: absolute;
-    font-size: 14px;
-    color: red;
-    background-color: aqua;
+    font-size: 18px;
 }
-form{
-    height: 50vh;
-    margin: 5%;
-    justify-content: center;
-}
-input {
-    width: 243px;
-    position: relative;
-    bottom: 20px;
-    padding: 10px;
-    margin-top: 9px;
-    left: -56px;
+ .form{
+    display: grid;
+    width: 50%;
+    margin: 20px auto;
+ }
+ .form input{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
     background-color: #eeee;
     border: 1px solid #cccc;
     outline: none;
-}
-input::placeholder{
+ }
+ input::placeholder{
     color: rgba(102, 98, 98, 0.7);
-    font-size: 11px;
-}
-
-.btn-send {
-    position: relative;
-    bottom: 10px;
-    width: 259px;
-    border: none;
+    font-size: 12px;
+ }
+ .form .send {
+     margin:20px auto;
+     width: 100%;
+     border: none;
     border-radius: 5px;
     color: white;
     background-color: #aec8ff;
     cursor: pointer;
 }
-.container-alerta{
-    width: 500px;
-    font-size: 15px;
-    text-align: center;
-}
-.alerta{
-    position: absolute;
-    top: 460px;
-    left: 10px;
+.alert{
     color: rgb(241, 8, 8);
 }
-.link_aceptas{
-    position: relative;
-    right: 80px;
-    bottom: 34px;
-    width: 320px;
-    font-size: 15px;
-    text-align: center;
+.to_accept{
+    font-size: smaller;
     color: rgba(102, 98, 98, 0.7);
 }
-.link_aceptas a{
+.to_accept a{
     text-decoration: none;
     color:rgba(102, 98, 98, 0.9);
+
 }
-.container2{
+ .account{
+    width: 68%;
+    height: 56px;
+    position: relative;
+    top: -27px;
+    margin: 20px auto;
+    text-align: center;
     background-color: #ffff;
     border: 1px solid #cccc;
-    width: 328px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+ }
+ .account p{
+     text-align: center;
+     margin: 15px auto;
+ }
+ .account p > a{
+     text-decoration: none;
+     color: #3b5998;
+ }
+
+ 
+ .app{
+     margin: 20px auto;
+     text-align: center;
+     grid-column-start:2 ;
+     grid-column-end: 2;
+     width: max-content;
+     position: relative;
+     top: -55px;
+ }
+ .app p{
+    margin: inherit
+ }
+ .app img{
+    width: 143px;
+ }
+
+ .link{
+     text-align: center;
+     grid-column-start: 1;
+     grid-column-end: 3;
+     text-decoration: none;
+     color: rgba(102, 98, 98, 0.8);
+     width: 120%;
     position: relative;
-    bottom: 541px;
-    left: 780px;
-    padding: 12px;
-    text-align: center;
-}
-.container2 a {
-    text-decoration: none;
-    color: #3b5998;
-}
-.container3{
-    position: relative;
-    bottom: 526px;
-    left: 290px;
-    text-align: center;
-}
-.img_container3{
-    width: 9%;
-}
-.container4{
-    position: relative;
-    bottom: 441px;
-    left: 272px;
-    width: 70%;
-    text-align: center;
-}
-.link{
-    position: relative;
-    bottom: 45px;
-    margin-left: 18px;
+    right: 60px
+ }
+ .link footer{
+    width: 60%;
+    margin: 20px auto;
     font-size: smaller;
-    text-decoration: none;
-    color: rgba(102, 98, 98, 0.8);
-}
-.idiomas {
-    background-color: #eeee;
+ }
+ .link footer > a{
+    margin: 12px;
+ }
+ .language{
+    position: relative;
+    right: 201px;
+    top: 20px;
     border: none;
     color: rgba(102, 98, 98, 0.8);
     outline: none;
-    width: 79px;
-    position: relative;
-    bottom: 2px;
-    right: 353px;
-}
-.copyright{
-    position: relative;
-    bottom: 35px;
-    color: rgba(102, 98, 98, 0.8);    
-}
-
-.btn-send:hover{
-    background-color: #7da2f3;
-}
-input:hover{
+    width: 88px;
+ }
+ input:hover{
     border: 1px solid rgba(143, 140, 140, 0.8);
-}
+ }
+ .send:hover{
+    background-color: #7da2f3;
+ }
+ @media screen and (max-width:768px) {
+       .mobile{
+            grid-column: span 2;
+       }
+       .form_title_btn{
+        grid-column: span 2;
+        width: 407px;
+       }
+       .account{
+           grid-column: span 2;
+           width: 405px;
+       }
+       .app{
+          grid-column: span 2;
+       }
+       .link{
+           grid-column: span 2;
+       }
+       .link footer{
+        font-size: unset;
+        width: 60%;
+        position: relative;
+        right: -38px;
+       }
+       .photos_videos{
+        position: relative;
+        top: 7px;
+       }
+       .btn_facebook{
+        padding: 7px;
+       }
+       .language{
+           position: relative;
+           right: 149px;
+       }
 
+ }
+ 
+ @media  screen and (max-width:425px) {
+           .link footer{
+            width: 61%;
+            right: -63px
+           }
+           .copyright{
+               margin: 20px auto;
+           }
+           .language{
+            margin: 20px auto;
+            left: 2px;
+            top: -3px;
+           }
+ }
+@media screen and (max-width:320px) {
+    .mobile{
+        margin: 20px auto;
+    }
+       .phono{
+        width: 320px;
+       }
+       .form_title_btn{
+        margin: 20px auto;
+        background-color: #eee;
+        border: none;
+        width: 91%;
+       }
+       .btn_facebook {
+        padding: 2px;
+        width: max-content;
+        margin: 20px auto;
+    }
+    .to_accept {
+        font-size: small;
+    }
+    .account{
+        margin: 20px auto;
+        background-color: #eee;
+        border: none;
+    }
+    .link{
+        margin: 20px auto;
+    }
+    .link footer{
+        width: 65%;
+    }
+}
