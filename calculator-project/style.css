@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: grid;
+}
+.interface{
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px auto;
+    display: grid;
+    grid-gap: 4px;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,auto);
+    background-color: #212121;
+    padding: 20px;
+    border-radius: 2px;
+}
+.label-date{
+    grid-column-start: span 5;
+}
+.label-date input{
+    width: -webkit-fill-available;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgb(255, 251, 251);
+}
+.btn-0{
+   grid-column-start: span 2;
+   text-align: center;
+}
+
+.btn-equal{
+   grid-row-start:span 3;
+   text-align: center;
+   display: flex;
+}
+.btn-equal button{
+    margin-left: auto;
+    margin-right: auto;
+}
+.interface div{
+    text-align: center;
+    margin: 20px;
+}
+.interface div > button{
+ width: -webkit-fill-available;
+ outline: none;
+ border: 1px solid rgb(8, 175, 197);
+ border-radius: 5px;
+ padding: 10px;
+ color: white;
+ background-color: #212121;
+ color: rgb(9, 226, 255);
+ cursor: pointer;
+ font-size: unset;
+}
+.interface div > button:hover{
+    color: white;
+    background-color: rgb(4, 104, 117);
+    border: none;
+    transform: translate(-10%, -10%);
+    transition: .5s ease;
+}
+
+@media screen and (max-width:1024px) {
+      .interface{
+        width: 80%;
+      }
+}
+
+@media screen and (max-width:768px) {
+      *{
+        padding: 0;
+        margin: 29px auto;
+      }
+      .interface{
+        width: min-content
+      }
+}
+
+@media screen and (max-width: 425px){
+        .interface{
+            width: min-content;
+            position: relative;
+            top: -25px;
+        }
+}
+
+@media screen and (max-width:375px) {
+    .interface {
+        padding: 2px;
+        width: 368px;
+    }
+    .interface div{
+        margin: 14px;
+        padding: 6px;
+    }
+    .interface div > button{
+        font-size: 21px;
+        border-radius: 24px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:320px) {
+       .interface{
+        width: min-content;
+       }
+       .interface div{
+            margin: 15px;
+            padding: 1px;
+       }
+       .interface div > button{
+           font-size: x-large;
+       }
+}
