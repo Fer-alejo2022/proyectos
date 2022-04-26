@@ -103,7 +103,7 @@
     .interface div > button{
         font-size: 21px;
         border-radius: 24px;
-        padding: 5px;
+        padding: 10px;
     }
 }
 
@@ -117,5 +117,6 @@
        }
        .interface div > button{
            font-size: x-large;
+           padding: 20px;
        }
 }
