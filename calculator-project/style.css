@@ -7,7 +7,7 @@
     display: grid;
 }
 .interface{
-    width: 100%;
+    width: 40%;
     max-width: 1000px;
     margin: 30px auto;
     display: grid;
