@@ -3,15 +3,8 @@
     margin: 0;
 }
 
-/* .container{
-    display: grid;
-    position: relative;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-} */
 .interface{
-    width: 30%;
+    width: 40%;
     max-width: 1000px;
     margin: 30px auto;
     display: grid;
@@ -33,6 +26,10 @@
     outline: none;
     border-radius: 20px;
     background-color: rgb(255, 251, 251);
+    font-size: 20px;
+}
+.date{
+    text-align: right;
 }
 .btn-0{
    grid-column-start: span 2;
@@ -53,16 +50,16 @@
     margin: 20px;
 }
 .interface div > button{
- width: -webkit-fill-available;
- outline: none;
- border: 1px solid rgb(8, 175, 197);
- border-radius: 5px;
- padding: 10px;
- color: white;
- background-color: #212121;
- color: rgb(9, 226, 255);
- cursor: pointer;
- font-size: unset;
+   width: -webkit-fill-available;
+   outline: none;
+   border: 1px solid rgb(8, 175, 197);
+   border-radius: 5px;
+   padding: 10px;
+   color: white;
+   background-color: #212121;
+   color: rgb(9, 226, 255);
+   cursor: pointer;
+   font-size: unset;
 }
 .interface div > button:hover{
     color: white;
@@ -74,7 +71,7 @@
 
 @media screen and (max-width:1024px) {
       .interface{
-          width: 40%;
+          width: 60%;
           grid-gap: 12px;
           padding: 14px;
           border-radius: 10px;
@@ -83,16 +80,16 @@
           margin: 18px;
       }
       .interface div > button {
-        border-radius: 9px;
-        padding: 12px;
+         border-radius: 9px;
+         padding: 12px;
     }
     
 }
 
 @media screen and (max-width:768px) {
       .interface{
-        width: 60%;
-        grid-gap: 9px;
+         width: 80%;
+         grid-gap: 9px;
       }
       .interface div{
           margin: 4px;
