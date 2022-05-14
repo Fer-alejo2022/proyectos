@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#form{
+    text-align: center;
+    position: relative;
+    top: 170px;
+}
+div{
+    text-align: center;
+    position: relative;
+    top: 214px;
+}
