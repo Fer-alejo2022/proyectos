@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color:rgb(20, 20, 20);
+    opacity: .9;
+    height: 40px;
+}
+nav > div{
+    display: flex;
+}
+nav > div > div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav > div > div > a:hover {
+     border-bottom: 2px solid white;
+     bottom: 4px;
+}
+
+a{
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+
+.containerImg{
+    height: 620px;
+}
+.containerImg > img{
+    height: 100%;
+    width: -webkit-fill-available;
+}
+h2{
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+.containerSaucer{
+    position: relative;
+    top: 100px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 3fr 6fr;
+
+}
+.containerSaucer > div{
+    position: relative;
+    background: aqua;
+    height: 300px;
+}
+div > div > div > button {
+    position: absolute;
+    left: 33%;
+    top: 250px;
+    padding: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.containerAbout{
+    position: relative;
+    top: 150px;
+    max-width: 1000px;
+    margin: 20px auto;
+    width: 90%;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 2fr 2fr;
+}
+#about{
+    position: relative;
+    top: 130px;
+}
+.containerAbout > div {
+    background-color: rgb(145, 135, 135);
+    height: 500px;
+    margin-bottom: 30px;
+}
+h4{
+    position: relative;
+    text-align: center;
+    top: 200px;
+    font-size: xxx-large;
+}
+#contact{
+    position: relative;
+    top: 130px;
+}
+.containerContact{
+    position: relative;
+    top: 150px;
+    max-width: 1000px;
+    margin: 20px auto;
+    width: 90%;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 2fr 2fr;
+}
+.containerContact > div{
+    background-color: blueviolet;
+    height: 500px;
+    margin-bottom: 30px;
+}
