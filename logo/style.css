@@ -44,7 +44,7 @@ h1{
 @media screen and (max-width: 320px){
     body{
         position: relative;
-        top: -33px;
+        top: -40px;
     }
     h1{
            font-size: 3rem;
